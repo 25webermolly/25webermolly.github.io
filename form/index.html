@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<header>
+  <h1 id="title"> Very Important Survey </h1>
+</header>
+<form id="survey-form">
+
+  <body>
+    <p id="description"> Please Answer the Questions Asked Below </p>
+    <label for="name" id="name-label"> Please State Your Name </label>
+    <input id="name" type="text" name="name" placeholder="eg. Molly Weber" required> </input>
+    <br>
+
+    <label for="email" id="email-label"> Please State Your Email </label>
+    <input id="email" type="email" name="email" placeholder="eg. webermolly@gmail.com" required </input>
+
+    <br>
+
+    <label for="number" id="number-label"> Please State Your Age </label>
+    <input id="number" type="number" placeholder="eg. 14" min="10" max="100" required> </input>
+    <br>
+    <label for="dropdown" id="option"> Please Select An Option</label>
+    <select id="dropdown">
+      <option value="1"> 1 </option>
+      <option value="2"> 2 </option>
+      <option value="3"> 3 </option>
+    </select </form>
+    <br>
+      <br>
+    <label for="favorite_color"> <b> Please Select Your Favorite Color </b> </label>
+    <input id="favorite_color" type="radio" id="black" name="color" value="black" <label for="favorite_color"> Black </label>
+    <input id="favorite_color" type="radio" id="white" name="color" value="white" <label for="favorite_color"> White </label>
+    <input id="favorite_color" type="radio" id="blue" name="color" value="blue" <label for="favorite_color"> Blue </label>
+    <input id="favorite_color" type="radio" id="red" name="color" value="red" <label for="favorite_color"> Red </label>
+    <input id="favorite_color" type="radio" id="pink" name="color" value="pink" <label for="favorite_color"> Pink </label>
+<br>
+    <br>
+    <label for="checkboxes"> <b> Please Select A Checkbox </b> </label>
+    <br>
+    <input id="checkbox" type="checkbox" name="sport" value="Checkbox A">
+    <label for="checkbox"> Checkbox A </label>
+    <br>
+    <input id="checkbox" type="checkbox" name="sport" value="Checkbox B">
+    <label for="checkbox"> Checkbox B </label>
+    <br>
+    <input id="checkbox" type="checkbox" name="sport" value="Checkbox C">
+    <label for="checkbox"> Checkbox C </label>
+    <br>
+    
+    <br>
+
+    <label for="word">Please Type One Word </label>
+    <textarea id="comment" placeholder="Enter your word here" rows="1"></textarea>
+
+    <div>
+      <input type="submit" id="submit">
+    </div>
+</form>
+</body>
+
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
